@@ -1,7 +1,6 @@
 <?php
 session_start();
 
-//if (!isset($_POST['addResident'])) header("Location: ../index.php");
 
 require "../commonPHP/databaseConnection.php";
 
