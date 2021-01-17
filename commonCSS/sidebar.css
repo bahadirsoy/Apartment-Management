@@ -1,0 +1,36 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.padding-0 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.sidebar {
+    background: #a9a9a9;
+    height: 100vh;
+    position: sticky;
+}
+
+.sidebar a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    background: #696969;
+    padding-bottom: 0.4rem;
+    padding-top: 0.4rem;
+}
+
+.sidebar a:hover {
+    background: white;
+    color: #696969;
+}
+
+.sidebar a ul a {
+    list-style-type: circle !important;
+}
